@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SAP DRC Knowledge Hub</title>
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+      <div id="app"></div>div>
+      <script src="data/content.js"></script>
+      <script>
+                // Simple renderer for the content
+                function renderContent() {
+                              const app = document.getElementById('app');
+                              if (window.knowledgeData) {
+                                                app.innerHTML = `<h1>${window.knowledgeData.title}</h1>
+                                                                                <p>${window.knowledgeData.description}</p>
+                                                                                                                <ul>${window.knowledgeData.topics.map(t => `<li>${t}</li>`).join('')}</ul>`;
+                              }
+                }
+                window.onload = renderContent;
+      </script>
+</body>
+</html>html>
+      </script>
+</body></title>
+  </head>
