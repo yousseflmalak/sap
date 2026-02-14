@@ -1,0 +1,17 @@
+{
+    "name": "sap-drc-knowledge-hub",
+    "version": "1.0.0",
+    "description": "Primary technical repository for SAP DRC training and tools.",
+    "main": "index.html",
+    "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+          "SAP",
+          "DRC",
+          "Knowledge",
+          "Hub"
+    ],
+    "author": "Youssef Lmalak",
+    "license": "ISC"
+}
